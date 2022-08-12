@@ -9,3 +9,7 @@ This repository is for learning and practicing new coding languages and quick de
 2.[HTML]()<br >
 3.[CSS]()<br>
 4.[Command Line](https://github.com/RehanSaeed/Bash-Cheat-Sheet)<br>
+
+## Resources
+### Fonts
+1. [Google Fonts](https://fonts.google.com/)
