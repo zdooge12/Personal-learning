@@ -83,10 +83,11 @@ thead td{
 
 }
 
-#additional-resources{
+#additional-resources-content{
 
-	display: flex;
+	display: inline-flex;
 }
+
 #additional-resources img{
 	height: 200px;
 	width: 200px;
@@ -98,3 +99,9 @@ code{
 	background-color: aliceblue;
 	color: black;
 }
+
+h3{
+	background-color: cadetblue;
+	width: 100%;
+}
+
