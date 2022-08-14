@@ -90,4 +90,11 @@ thead td{
 #additional-resources img{
 	height: 200px;
 	width: 200px;
+	margin: 20px;
+}
+
+code{
+	font-family: monospace;
+	background-color: aliceblue;
+	color: black;
 }
