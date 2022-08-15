@@ -5,6 +5,7 @@
 
 body{
   color: #fff;
+  background-color: aquamarine;
   /* padding: 25px; */
   font-family: 'arvo', 'times new roman', sans-serif;
   position: static;
@@ -20,6 +21,7 @@ header{
 	color: white;
 	background-color: black; /* Black background color */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
 }
 
 header h1{
@@ -27,17 +29,22 @@ header h1{
 	margin: auto 0px;
 }
 header a{
-	float: left;
-  	color: white;
+  	float: left;
+	color: white;
   	text-align: center;
-  	padding: 15px;
+  	padding: 10px;
+	margin:10px;
   	text-decoration: !important;
 	font-size: 15px;
+	height: 30;
+	width: 100;
 	border-radius: 90px;
 }
 header a:hover {
   background-color: #ddd;
   color: black;
+  border-style: solid;
+  border-color: red;
 }
 .coming-soon{
 	color: red;
@@ -62,15 +69,20 @@ table{
 	border-style: solid;
 	border-color:  white;
 	width: 90%;
+	padding: 10px;
+	margin: 10px;
 }
 tr{
 	border-style: dotted;
 	border-color:  white;
 	border-width: thin;
+
 }
 
 .topic{
 	display: block;
+	padding: 10px;
+	margin: 10px;
 }
 
 .topic a{
@@ -80,6 +92,14 @@ tr{
 thead td{
 	border-bottom-style: solid;
 	border-color:  white;
+
+}
+.topic-name{
+	background-color: cadetblue;
+	width: auto;
+	margin-right: 10px;
+}
+
 
 }
 
@@ -100,8 +120,12 @@ code{
 	color: black;
 }
 
-h3{
+/* h3{
 	background-color: cadetblue;
-	width: 100%;
-}
+	width: auto;
+	margin-right: 10px;
+} */
 
+#hidden{
+	visibility: hidden;
+}
