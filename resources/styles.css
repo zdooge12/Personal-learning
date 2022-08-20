@@ -113,19 +113,21 @@ thead td{
 
 
 #additional-resources-content{
-
 }
 
 #additional-resources ul{
 	margin: 20px;
-	float: left;
+	padding: 10px;
+	/* float: left; */
+	display: inline-block;
 }
 
 #additional-resources img{
+	display: inline-block;
 	height: 200px;
 	width: 200px;
 	margin: 20px;
-	float: left;
+	/* float: left; */
 	border-style: solid;
 	border-color: #2a3132;
 }
@@ -145,4 +147,10 @@ code{
 
 #hidden{
 	visibility: hidden;
+}
+
+footer{
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
 }
