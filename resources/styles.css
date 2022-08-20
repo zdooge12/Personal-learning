@@ -1,44 +1,59 @@
+.Color-Palette{
+	color: #90AFC5;
+	color: #336B87;
+	color: #2a3132;
+	color: #763626;
+}
+
 *{
-	background: #000000;
+	/* background: gainsboro; */
 
 }
 
 body{
-  color: #fff;
-  background-color: aquamarine;
-  /* padding: 25px; */
+  color: #2a3132;
   font-family: 'arvo', 'times new roman', sans-serif;
-  position: static;
+  background: #ffff;
+  margin: 0px 0px;
+  font-weight: 500;
+  width: 100%;
+
 }
 
 
 header{
 	/* position: sticky; */
-	top: 0;
-	width: 100%;
+	color: #2a3132;
+	background-color: #90AFC5;
 	z-index: 10;
-	padding: 1px;
-	color: white;
-	background-color: black; /* Black background color */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
-
+	padding: 10px;
+	margin:	0px;
+	border-style: solid;
+	border-color: #2a313283;
+	border-width: 5px;
 }
-
 header h1{
 	font-size: 50px;
 	margin: auto 0px;
 }
+
+.nav{
+	/* float: left;
+	display: inline-block;
+	margin: 10px auto; */
+}
+
+
 header a{
-  	float: left;
-	color: white;
+	display: inline-block;
   	text-align: center;
-  	padding: 10px;
-	margin:10px;
   	text-decoration: !important;
 	font-size: 15px;
-	height: 30;
-	width: 100;
-	border-radius: 90px;
+	/* height: 30;
+	width: 100; */
+	padding: 10px;
+	margin:10px;
+	border-radius: 40px;
 }
 header a:hover {
   background-color: #ddd;
@@ -53,28 +68,22 @@ header a:hover {
 }
 
 content{
-	z-index: -1;
-	margin: 10px;
 	height: 40px;
 	width: 100%;
 	display: inline-block;
 }
 
-.nav{
-	/* display: flex; */
-	/* flex-wrap: wrap; */
-	/* list-style: none; */
-}
+
 table{
 	border-style: solid;
-	border-color:  white;
+	border-color:  #90AFC5;
 	width: 90%;
 	padding: 10px;
 	margin: 10px;
 }
 tr{
 	border-style: dotted;
-	border-color:  white;
+	border-color:  #90AFC5;
 	border-width: thin;
 
 }
@@ -86,38 +95,46 @@ tr{
 }
 
 .topic a{
-	color: white;
+	color: #2a3132;
 }
 
 thead td{
 	border-bottom-style: solid;
-	border-color:  white;
+	border-color:  #90AFC5;
+	font-weight: 800;;
 
 }
 .topic-name{
-	background-color: cadetblue;
+	/* background-color: #336B87; */
 	width: auto;
-	margin-right: 10px;
+	padding: 5px;
+	margin: 1px;
 }
 
-
-}
 
 #additional-resources-content{
 
-	display: inline-flex;
+}
+
+#additional-resources ul{
+	margin: 20px;
+	float: left;
 }
 
 #additional-resources img{
 	height: 200px;
 	width: 200px;
 	margin: 20px;
+	float: left;
+	border-style: solid;
+	border-color: #2a3132;
 }
 
 code{
 	font-family: monospace;
 	background-color: aliceblue;
-	color: black;
+	color: #763626;
+	font-weight: 500;
 }
 
 /* h3{
