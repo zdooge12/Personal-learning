@@ -186,11 +186,15 @@ code{
 	color: #763626;
 	font-weight: 500;
 	padding-left: 40px;
+	padding-right: 40px;
 	margin-left: 10px;
+	margin-right: 10px;
+
 }
 
 .code-block{
 	font-weight: 200;
+
 }
 
 /* h3{

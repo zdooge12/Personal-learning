@@ -57,6 +57,7 @@
 					<li>Breadcrumbs are usually displayed as a horizontal list of pages and take up minimal space. </li>
 					<li>Users expect to find them in the header, left-aligned, and below any primary navigation. </li>
 					<li>Typically they are separated with a &quot; &gt; &quot; or a &quot;/&quot; symbol.</li>
+					<li>In the case of a lengthy breadcrumb sequence, use <code>"..."</code> to annotate ommissions</li>
 				</ul>
 			</div>
 
@@ -76,14 +77,15 @@
 
 				<h5>Example Advanced Breadcrumb Design</h5>
 <!-- This part is to show an example breadbrumb design -->
-				<!-- <ul class="breadcrumb-example">
+				<ul class="breadcrumb-example">
 			  		<li><a href="">Asia</a></li>
 			  		<li><a href="">Singapore</a></li>
 			  		<li><a href="">Tourism</a></li>
 			  		<li><a href="">Hotels</a></li>
-				</ul> -->
-				<p>
-				<code class="code-block">
+				</ul>
+<!-- iFrame showing the CSS code for breadcrumbs -->
+				<code><iframe class="code-block" src="resources/breadcrumb.css" title="Advanced Breadcrumb CSS Design"></iframe></code>
+				<!-- <code class="code-block">
 					.breadcrumb {</br>
 				  	text-align: left;</br>
 					}</br>
@@ -134,8 +136,36 @@
 					.breadcrumb a:hover::after {</br>
 				  	border-left-color: blue;</br>
 					}</br>
-				</code>
-				</p>
+				</code> -->
+			</div>
+			<div class="sub-topic" id="breadcrumb-types">
+
+				<h5>Breadcrumb types</h5>
+				<table>
+					<thead>
+						<td>Type</td>
+						<td>Description</td>
+					</thead>
+					<tr>
+						<td>Location</td>
+						<td>Based on the hierarchical structure of site - i.e. where you are with respect to the navigation structure of the website. </td>
+					</tr>
+					<tr>
+						<td>Attribute</td>
+						<td>Based on the attributes of current page, item, or product that you are browsing.</br>
+						Example, shoes, "flats" or "browns" could be an attribute of shoes</td>
+					</tr>
+					<tr>
+						<td>Path</td>
+						<td>Unique to a user’s journey on the site</td>
+					</tr>
+				</table>
+				<ul>
+					<li>Location</li>
+					<li>Attribute</li>
+					<li>Path</li>
+
+				</ul>
 			</div>
 		</div>
 
