@@ -7,12 +7,17 @@
 
 	</head>
 <body>
-	<div class="banner">
-		<h1>Title</h1>
-	</div>
-	<content>
+	<header>
+		<nav>
 
-	</content>
+		</nav>
+		<main class="banner">
+
+		</main>
+	</header>
+	<section>
+
+	</section>
 
 	<footer>
 

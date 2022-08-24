@@ -152,9 +152,26 @@ thead td{
 	padding: 5px;
 	margin: 1px;
 }
+#advanced-breadcrumb-design h, ul, code{
+	display: inline-block;
+}
+
+#advanced-breadcrumb-design ul{
+	text-align: : center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 
 #pseudo-class-selectors li{
 	display: inline;
+	text-align: center;
+	text-justify: auto;
+
+}
+
+#breadcrumb-types ul{
+	padding: 20px 0px;
+	margin: 5px;
 }
 
 
