@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Zack CSS Cheatsheet</title>
+		<link rel="stylesheet" href="resources/styles.css" />
+		<link rel="stylesheet" href="resources/breadcrumb.css" />
+
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+		<script>
+			/* Function to use lastModified property */
+			function last-updated() {
+				var x = document.lastModified;
+				document.getElementById("sudo").innerHTML = x;
+			}
+			window.onload = last-updated;
+		</script>
+	</head>
+<body>
+	<header class="banner">
+		<h1>Zack's Cheatsheet! - CSS</h1>
+		<p>Let's refresh on some things! You forgetful moron...</p>
+		<!-- <p>Quick reference cheatsheet for common HTML items</p> -->
+	</header>
+	<ul class="breadcrumb">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">CSS</a></li>
+	</ul>
+
+	<content>
+		<div class="topic">
+			<h2 class="topic-name" >Nomenclature</h2>
+
+		</div>
+		<div class="topic">
+			<h2 class="topic-name" >Box Model Selectors</h2>
+
+		</div>
+		<div class="topic" id="interactive-design">
+			<h2 class="topic-name" >Interactive Design</h2>
+			<div class="sub-topic">
+				<h4 >Pseudo Class Selectors</h4>
+				<p>The recommended Order in CSS is:</p>
+
+				<ol class="sub-topoic-content" id="pseudo-class-selectors">
+					<li>Link</li>
+					<li>Visited</li>
+					<li>Focus</li>
+					<li>Hover</li>
+					<li>Active</li>
+				</ol>
+			</div>
+			<div class="sub-topic" id="breadcrumb-secondary-nav">
+				<h4>Breadcrumb Secondary Navigation</h4>
+				<h5>Display and Position</h5>
+				<ul>
+					<li>Breadcrumbs are usually displayed as a horizontal list of pages and take up minimal space. </li>
+					<li>Users expect to find them in the header, left-aligned, and below any primary navigation. </li>
+					<li>Typically they are separated with a &quot; &gt; &quot; or a &quot;/&quot; symbol.</li>
+				</ul>
+			</div>
+
+			<div class="sub-topic" id="breadcrumb-marking">
+
+				<h5>Common Breadcrumb Marking Conventions</h5>
+				<ul>
+					<li><code>.breadcrumb li+li::before</code> is an example of a selector to manage content we want to display before list items</li>
+					<li>This code can be modified with the <code>content</code> property set to, for example &quot; &gt; &quot; to place the greater sign between each adjacent breadcrumb.
+					</li>
+					<li>Another feature of breadcrumbs is that they are often not underlined. Underlines are used to communicate that text within paragraph elements can be clicked, but we want our users to recognize breadcrumbs as part of the site navigation, rather than just like any other clickable text.</li>
+					<li>This is done with the css property: <code>text-decoration: none;</code></li>
+					<li>Breadcrumbs should change when you hover over them to highlight their clickability.  Commonly this is done with the <code>color</code> property using the <code>a:hover</code> pseudo-selector</li>
+				</ul>
+			</div>
+			<div class="sub-topic" id="advanced-breadcrumb-design">
+
+				<h5>Example Advanced Breadcrumb Design</h5>
+<!-- This part is to show an example breadbrumb design -->
+				<!-- <ul class="breadcrumb-example">
+			  		<li><a href="">Asia</a></li>
+			  		<li><a href="">Singapore</a></li>
+			  		<li><a href="">Tourism</a></li>
+			  		<li><a href="">Hotels</a></li>
+				</ul> -->
+				<p>
+				<code class="code-block">
+					.breadcrumb {</br>
+				  	text-align: left;</br>
+					}</br>
+					.breadcrumb li {</br>
+				  	float: left;</br>
+					}</br>
+
+					.breadcrumb a {</br>
+				  	color: #fff;</br>
+				  	background: darkcyan;</br>
+				  	text-decoration: none;</br>
+				  	position: relative;</br>
+				  	height: 30px;</br>
+				  	line-height: 30px;</br>
+				  	text-align: center;</br>
+				  	margin-right: 15px;</br>
+				  	padding: 0 5px;</br>
+					}</br>
+					.breadcrumb a::before,</br>
+					.breadcrumb a::after {</br>
+				  	content: "";</br>
+				  	position: absolute;</br>
+				  	border-color: darkcyan;</br>
+				  	border-style: solid;</br>
+				  	border-width: 15px 5px;</br>
+					}</br>
+
+					.breadcrumb a::before {</br>
+				  	left: -10px;</br>
+				  	border-left-color: transparent;</br>
+					}</br>
+					.breadcrumb a::after {</br>
+				  	left: 100%;</br>
+					}</br>
+
+					.breadcrumb a::after {</br>
+				  	left: 100%;</br>
+				  	border-color: transparent;</br>
+				  	border-left-color: darkcyan;</br>
+					}</br>
+					.breadcrumb a:hover {</br>
+				  	background-color: blue;</br>
+					}</br>
+					.breadcrumb a:hover::before {</br>
+				  	border-color: blue;</br>
+				  	border-left-color: transparent;</br>
+					}</br>
+					.breadcrumb a:hover::after {</br>
+				  	border-left-color: blue;</br>
+					}</br>
+				</code>
+				</p>
+			</div>
+		</div>
+
+	</content>
+
+	<footer>
+		<h3>Thanks for visiting!</h3>
+		<p>last updated: 24 Aug, 2022</p>
+
+		<script class="last-updated">last-updated();</script>
+	</footer>
+</body>
+
+</html>

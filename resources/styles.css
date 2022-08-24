@@ -82,6 +82,24 @@ header a:active{
 	font-size: 75%;
 }
 
+.breadcrumb{
+}
+
+.breadcrumb li{
+	display: inline;
+}
+.breadcrumb a{
+	text-decoration: none;
+}
+
+.breadcrumb li+li::before{
+	content:">";
+}
+.breadcrumb a:hover{
+
+	color: #763626;
+}
+
 content{
 	height: 40px;
 	width: 100%;
@@ -105,13 +123,22 @@ tr{
 
 .topic{
 	display: block;
-	padding: 10px;
-	margin: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
 }
 
 .topic a{
 	color: #2a3132;
 }
+
+.sub-topic{
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.sub-topic-content{
+	margin-left: 10px;
+	padding-left: 10px;}
 
 thead td{
 	border-bottom-style: solid;
@@ -126,13 +153,19 @@ thead td{
 	margin: 1px;
 }
 
+#pseudo-class-selectors li{
+	display: inline;
+}
+
 
 #additional-resources-content{
 }
 
 #additional-resources ul{
 	margin: 20px;
+	margin-top: 0px;
 	padding: 10px;
+	padding-top: 0px;
 	/* float: left; */
 	display: inline-block;
 }
@@ -152,6 +185,12 @@ code{
 	background-color: aliceblue;
 	color: #763626;
 	font-weight: 500;
+	padding-left: 40px;
+	margin-left: 10px;
+}
+
+.code-block{
+	font-weight: 200;
 }
 
 /* h3{

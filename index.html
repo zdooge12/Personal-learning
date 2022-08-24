@@ -2,209 +2,47 @@
 
 <html>
 	<head>
-		<title>Zack Learn Test</title>
+		<title>Zack Dev Cheatsheet</title>
 		<link rel="stylesheet" href="resources/styles.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+		<script>
+			/* Function to use lastModified property */
+			function last-updated() {
+				var x = document.lastModified;
+				document.getElementById("sudo").innerHTML = x;
+			}
+			window.onload = last-updated;
+		</script>
 
 	</head>
 <body>
 	<header class="banner">
-		<h1>Zack's Cheatsheet! - HTML</h1>
-		<p>Let's refresh on some common HTML! You forgetful moron...</p>
+		<h1>Zack's Development Cheatsheet!</h1>
+		<p>Let's refresh on some things! You forgetful moron...</p>
 		<!-- <p>Quick reference cheatsheet for common HTML items</p> -->
-		<div class="nav">
-			<a href="#initialization">Initialization<br  /> <em class="coming-soon" id="hidden">Coming Soon!</em></a>
-			<a href="#common-elements">Common Building Elements <br  /> <em class="coming-soon" id="hidden">Coming Soon!</em></a>
-			<a href="#tables">Tables <br  /> <em class="coming-soon" id="hidden">Coming Soon!</em></a>
-			<a href="#lists" >Lists <br  /> <em class="coming-soon" id="hidden">Coming Soon!</em></a>
-			<a href="#media-objects" >Media & Objects <br  /><em class="coming-soon">Coming Soon!</em></a>
-			<a href="#additional-resources" >Additional Resources<br  /><em class="coming-soon">Coming Soon!</em></a>
-		</div>
 	</header>
 
 	<content>
-		<div class="topic" id="initialization">
-			<h3 class="topic-name" >Initialization</h3>
-			<ul>
-				<li>Stored in .HTML files</li>
-				<li>Start Doc with <code>&lt;!DOCTYPE html&gt;</code></li>
-				<li>Include all HTML code within <code>&lt;HTML&gt;	&lt;/HTML&gt;</code></li>
-				<li>Include machine readable page data with <code>&lt;head&gt;	&lt;/head&gt;</code></li>
-				<li>Show visible content within <code>&lt;body&gt;	&lt;/body&gt;</code></li>
-			</ul>
+		<div class="topics">
+			<a class="topic" href="html.html">
+				<h3 class="topic-name" >HTML</h3>
+				<p class="topic-content">Refresh some HTML setup</p>
+			</a>
+			<div class="topics">
+			<a class="topic" href="css.html">
+				<h3 class="topic-name" >CSS</h3>
+				<p class="topic-content">Refresh some CSS selectors and best practices</p>
+			</a>
 		</div>
-		<div class="topic">
-			<h3 class="topic-name" name="common-elements">Common Elements "Tags" or "Attributes"</h3>
-			<p>All these items commonly use the 'class' and 'id' attributes</p>
-				<table class='table'>
-					<thead>
-						<td>Element</td>
-						<td>Description</td>
-					</thead>
-					<tbody>
-						<tr>
-							<td><code>&lt;div&gt;	&lt;/div&gt;</code></td>
-							<td>Div <em>"Division"</em>is commonly used for dividing sections or containers</td>
-						</tr>
-						<tr>
-							<td><code>&lt;h&gt;	&lt;/h&gt;</code></td>
-							<td>h items are used for headers within the page.  H1 is highest level and h6 is lowest</td>
-						</tr>
-						<tr>
-							<td><code>&lt;p&gt;	&lt;/p&gt;</code></td>
-							<td>'p' items are for paragraphs of standard text.</td>
-						</tr>
-						<tr>
-							<td><code>&lt;br /&gt;</code></td>
-							<td>'br' is for break and conveys a line break.  Usually used within 'p' tags</td>
-						</tr>
-					</tbody>
-				</table>
-		</div>
-		<div class="topic" id="tables">
-			<h3 class="topic-name" >Tables</h3>
-			<table>
-				<thead>
-					<td>Element</td>
-					<td>Description</td>
-				</thead>
-				<tbody>
-					<tr>
-						<td><code>&lt;table&gt;	&lt;/table&gt;</code></td>
-						<td>These tags initialize a table</td>
-					</tr>
-					<tr>
-						<td><code>&lt;thead&gt;	&lt;/thead&gt;</code></td>
-						<td>Indicates a table header row.  Usually used for the first row.</td>
-					</tr>
-					<tr>
-						<td><code>&lt;tr&gt;	&lt;/tr&gt;</code></td>
-						<td>Indicates a new row of data.</td>
-					</tr>
-					<tr>
-						<td><code>&lt;td&gt;	&lt;/td&gt;</code></td>
-						<td>Indicates a 'cell' of data.</td>
-					</tr>
-					<tr>
-						<td><code>&lt;tfoot&gt;	&lt;/tfoot&gt;</code></td>
-						<td>Indicates a footer row in a table</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div class="topic" id="lists">
-			<h3 class="topic-name" >Lists</h3>
-			<table>
-				<thead>
-					<td>Element</td>
-					<td>Description</td>
-				</thead>
-				<tbody>
-					<tr>
-						<td><code>&lt;ul&gt;	&lt;/ul&gt;</code></td>
-						<td>Unordered List.  Initializes for a bullet style list.</td>
-					</tr>
-
-					<tr>
-						<td><code>&lt;ol&gt;	&lt;/ol&gt;</code></td>
-						<td>Ordered List.  Initializes using numeric for the list items.</td>
-					</tr>
-					<tr>
-						<td><code>&lt;li&gt;	&lt;/li&gt;</code></td>
-						<td>List Item.  Each item in the list uses these tags.</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		<div class="topic" id="media-objects">
-			<h3 class="topic-name" >Media and Objects</h3>
-			<h5 class="coming-soon">Coming Soon!</h5>
-				<!-- <table>
-					<thead>
-						<td>Element</td>
-						<td>Description</td>
-						<td>Common Attributes</td>
-						<td>Usage</td>
-					</thead>
-					<tbody>
-						<tr>
-							<td>&lt;div&gt;	&lt;/div&gt;</td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>&lt;h&gt;	&lt;/h&gt;</td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>&lt;p&gt;	&lt;/p&gt;</td>
-							<td></td>
-							<td></td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table> -->
-
-		</div>
-		<div class="topic" id="additional-resources">
-			<h3 class="topic-name">Additional Resources</h3>
-			<div id="additional-resources-content">
-				<ul>
-					<li><a href="https://caniuse.com/">Can I Use - HTML & CSS</a></li>
-					<li><a href="https://www.codecademy.com/workspaces/new">Codecademy Templates</a></li>
-					<li><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a></li>
-					<li><a href="https://www.w3.org/TR/CSS2/selector.html">W3 CSS Selectors</a></li>
-					<li><a href="https://css-tricks.com/">CSS Tricks</a></li>
-					<li><a href="https://dev.to/">Dev community (cheatsheets)</a></li>
-					<li><a href="https://eloquentjavascript.net/">Elequent Javascript</a></li>
-					<li><a href="https://www.codecademy.com/resources/docs/css">Codecademy CSS</a></li>
-					<li><a href="https://www.cssfontstack.com/">CSS Fonts</a></li>
-					<li><a href="https://content.codecademy.com/courses/freelance-1/unit-4/diagram-boxmodel.svg?_gl=1*1fjez8v*_ga*MTc4MzA2MzIwNy4xNjU5MzU0MzM3*_ga_3LRZM6TM9L*MTY1OTc3OTAzNy4xMC4wLjE2NTk3NzkwMzcuNjA.">CSS Box Model</a></li>
-				</ul>
-				<img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" alt="Dancing Ice Cream Cone"/>
-			</div>
 
 
-			<!-- <div class="code" id="CSS">
-				<h2 class="section-head">CSS</h2>
-				<p class="section-sub-head">
-					Quick reference cheatsheet for common CSS items
-					<h3>Initialization</h3>
-					<h3>Tags</h3>
-					<h3>Common Use Examples</h3>
-					<h3>Additional Resources</h3>
-				</p>
-			</div>
-			<div class="code" id="HTML">
-				<h2 class="section-head">Markdown</h2>
-				<p class="section-sub-head">
-					Quick reference cheatsheet for common Markdown items
-					<h3>Initialization</h3>
-					<h3>Tags</h3>
-					<h3>Common Use Examples</h3>
-					<h3>Additional Resources</h3>
-
-				</p>
-			</div>
-			<div class="code" id="DevOps">
-				<h2 class="section-head">DevOps</h2>
-				<p class="section-sub-head">
-					Quick reference cheatsheet for common DevOps items.  Includes using Git and deployment
-					<h3>Initialization</h3>
-					<h3>Tags</h3>
-					<h3>Additional Resources</h3>
-
-				</p>
-			</div> -->
-		</div>
 	</content>
 
 	<footer>
 		<h3>Thanks for visiting!</h3>
-		<p>last updated 21 Aug 2022</p>
+		<p>last updated: 24 Aug, 2022</p>
+
+		<script class="last-updated">last-updated();</script>
 	</footer>
 </body>
 
