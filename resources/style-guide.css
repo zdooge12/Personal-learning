@@ -2,6 +2,8 @@
 
 html{
 	background-color: white;
+	margin: 0px;
+	padding: 0px;
 }
 
 /* Header */
@@ -9,19 +11,27 @@ html{
 h1 {
 	font-family: "mbf_spaceregular","rigameshregular", "retake", "fauna_proregular", sans-serif;
 	text-align: center;
-	padding: 10px;
-
+	padding: 20px;
 
 
 }
 
 h2{
+	background-color: #C3AEAE;
+	/* color: white; */
+	padding: 5px;
+	text-decoration: underline;
+	text-underline-offset: 5px;
+
 }
 
 header {
 	color: white;
 	background-color: black;
 	text-align: center;
+	height: 80px;
+
+
 }
 
 main.banner{
@@ -31,14 +41,15 @@ main.banner{
 /* Nav */
 
 nav{
-
+	margin: 0px;
+padding: 0px;
 }
 
 /* Section */
 
 .container {
-	margin: 0px;
-	padding: 0px;
+	/* margin: 0px; */
+	/* padding: 0px; */
 	/* border-style: solid; */
 }
 
@@ -73,7 +84,6 @@ nav{
 
 .color-palette p{
 	line-height: : 10px;
-	padding: 0px auto;
 	margin: 5px auto;
 	vertical-align: middle;
 }
@@ -126,9 +136,7 @@ nav{
 }
 
 #fonts .sub-container{
-	/* width: 300px; */
 	height: 200px;;
-	margin: 5px;
 }
 
 #fonts div{
@@ -144,6 +152,10 @@ nav{
 	font-weight: 400;
 	font-size: 12px;
 
+}
+
+h3{
+	text-decoration: underline;
 }
 
 
