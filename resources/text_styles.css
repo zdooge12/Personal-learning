@@ -1,0 +1,32 @@
+h1 {
+	font-family: "mbf_spaceregular","rigameshregular", "retake", "fauna_proregular", sans-serif;
+
+	font-size: 40px;
+	font-weight: 700;
+
+}
+
+h2 {
+	font-family: "retake", "fauna_proregular", sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	background-color: #A07D7D;
+
+}
+
+h3 {
+	font-family: "fauna_proregular", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+
+
+}
+
+li{
+	font-family: "fauna_proregular", sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	text-align: left;
+
+}

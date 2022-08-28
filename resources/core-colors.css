@@ -1,0 +1,45 @@
+/* General Colors */
+
+	/* Palette color codes */
+	/* Palette URL: http://paletton.com/#uid=7000u0k1Xqw4Fvi3tot56l+76k8 */
+
+	/* Feel free to copy&paste color codes to your application */
+
+
+	/* As hex codes */
+
+.color-primary-0 { background-color: #D3C6C6 }	/* Main Primary color */
+.color-primary-1 { background-color: #F9D5D5 }
+.color-primary-2 { background-color: #C3AEAE }
+.color-primary-3 { background-color: #AF9393 }
+.color-primary-4 { background-color: #A07D7D }
+
+.color-secondary-1-0 { background-color: #D3CCC6 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { background-color: #F9E6D5 }
+.color-secondary-1-2 { background-color: #C3B7AE }
+.color-secondary-1-3 { background-color: #AFA093 }
+.color-secondary-1-4 { background-color: #A08D7D }
+
+.color-secondary-2-0 { background-color: #777F7F }	/* Main Secondary color (2) */
+.color-secondary-2-1 { background-color: #809696 }
+.color-secondary-2-2 { background-color: #687575 }
+.color-secondary-2-3 { background-color: #586969 }
+.color-secondary-2-4 { background-color: #4B6060 }
+
+.color-complement-0 { background-color: #9FA99F }	/* Main Complement color */
+.color-complement-1 { background-color: #AAC7AA }
+.color-complement-2 { background-color: #8B9C8B }
+.color-complement-3 { background-color: #768C76 }
+.color-complement-4 { background-color: #648064 }
+
+.black {
+	color: black;
+}
+
+.grey {
+	color: grey;
+}
+
+.white {
+	color: white;
+}

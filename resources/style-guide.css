@@ -6,8 +6,22 @@ html{
 
 /* Header */
 
-header {
+h1 {
+	font-family: "mbf_spaceregular","rigameshregular", "retake", "fauna_proregular", sans-serif;
+	text-align: center;
+	padding: 10px;
 
+
+
+}
+
+h2{
+}
+
+header {
+	color: white;
+	background-color: black;
+	text-align: center;
 }
 
 main.banner{
@@ -21,5 +35,117 @@ nav{
 }
 
 /* Section */
+
+.container {
+	margin: 0px;
+	padding: 0px;
+	/* border-style: solid; */
+}
+
+.sub-container{
+	display: inline-block;
+	border-style: solid;
+	border-color: black;
+	vertical-align: top;
+	width: 350px;
+	margin: 5px;
+}
+
+
+
+#colors h3{
+	display: block;
+	margin: 10px;
+}
+
+.color-palette{
+	padding: 5px;
+}
+
+.color-palette div{
+	display: inline-block;
+	height: 80px;
+	width: 70px;
+	align-content: center;
+	padding: 5px;
+
+}
+
+.color-palette p{
+	line-height: : 10px;
+	padding: 0px auto;
+	margin: 5px auto;
+	vertical-align: middle;
+}
+
+#primary-colors {
+	background-color: #D3C6C6;
+}
+
+#secondary-colors-1 {
+	background-color: #D3CCC6;
+}
+
+#secondary-colors-2 {
+	background-color: #777F7F;
+}
+
+#complementary-colors {
+	background-color: #9FA99F;
+}
+
+#rigamesh h3{
+	font-family: "rigamesh"
+}
+#rigamesh p{
+	font-family: "rigamesh"
+}
+
+#retake h3{
+	font-family: "retake"
+
+}
+#retake p{
+	font-family: "retake"
+
+}
+
+#mbf_spaceregular h3{
+	font-family: "mbf_spaceregular";
+}
+
+#mbf_spaceregular p{
+	font-family: "mbf_spaceregular";
+}
+
+#fauna_proregular h3{
+	font-family: "fauna_proregular"
+}
+#fauna_proregular p{
+	font-family: "fauna_proregular"
+}
+
+#fonts .sub-container{
+	/* width: 300px; */
+	height: 200px;;
+	margin: 5px;
+}
+
+#fonts div{
+
+}
+
+#fonts p{
+	display: inline-flex;
+	flex: left;
+	width: 200;
+	margin: 5px;
+	text-align: left;
+	font-weight: 400;
+	font-size: 12px;
+
+}
+
+
 
 /* Footer */
