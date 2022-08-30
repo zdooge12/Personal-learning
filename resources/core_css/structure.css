@@ -90,13 +90,20 @@ h2{
 	position: relative;
 }
 
-.sub-container{
+.container div{
 	display: inline-block;
 	border-style: solid;
 	border-color: black;
+	border-radius: 12px;
 	vertical-align: top;
 	width: 350px;
-	margin: 5px;
+	height: 100px;
+	padding: 1em;
+	margin: .1em;
+}
+
+.sub-container {
+	height: 500 px;
 }
 
 

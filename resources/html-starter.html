@@ -2,25 +2,56 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" href="styles.css" />
 		<title>Title</title>
-
+		<!-- Load Google Font Package -->
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+		<!-- Loads Sci-Fi Font Packages -->
+		<link rel="stylesheet" href="resources/fonts/sci-fi_font_kit/_font-files.css" />
+		<!-- Calls the core CSS file for structure -->
+		<link rel="stylesheet" href="resources/core_css/structure.css" />
+		<!-- Call core CSS for styling text -->
+		<link rel="stylesheet" href="resources/core_css/text_styles.css" />
+		<!-- Core CSS colors palette -->
+		<link rel="stylesheet" href="resources/core_css/core-colors.css" />
+		<!-- Unique CSS for this page -->
+		<link rel="stylesheet" href="resources/styles.css" />
+		<script>
+			/* Function to use lastModified property */
+			function last-updated() {
+				var x = document.lastModified;
+				document.getElementById("sudo").innerHTML = x;
+			}
+			window.onload = last-updated();
+		</script>
 	</head>
 <body>
 	<header>
-		<nav>
-
-		</nav>
 		<main class="banner">
 
 		</main>
+		<nav>
+			<div class="internal-nav" >
+
+			</div>
+			<div class="breadcrumb">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+
+			</div>
+
+		</nav>
 	</header>
 <section>
 
 </section>
 
 	<footer>
+		<h3>Thanks for visiting!</h3>
+		<p>last updated: 30 Aug, 2022</p>
 
+		<script class="last-updated">last-updated();</script>
 	</footer>
 </body>
 

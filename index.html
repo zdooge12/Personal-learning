@@ -3,15 +3,21 @@
 <html>
 	<head>
 		<title>Zack Dev Cheatsheet</title>
-		<link rel="stylesheet" href="resources/styles.css" />
 		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital@0;1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="resources/fonts/sci-fi_font_kit/_font-files.css" />
+		<link rel="stylesheet" href="resources/core_css/structure.css" />
+
+		<link rel="stylesheet" href="resources/core_css/text_styles.css" />
+		<link rel="stylesheet" href="resources/core_css/core-colors.css" />
+		<link rel="stylesheet" href="resources/styles.css" />
+
 		<script>
 			/* Function to use lastModified property */
 			function last-updated() {
 				var x = document.lastModified;
 				document.getElementById("sudo").innerHTML = x;
 			}
-			window.onload = last-updated;
+			window.onload = last-updated();
 		</script>
 
 	</head>
@@ -22,16 +28,23 @@
 		<!-- <p>Quick reference cheatsheet for common HTML items</p> -->
 	</header>
 
-	<content>
-		<div class="topics">
-			<a class="topic" href="html.html">
+	<section class="container" id="topics">
+		<div class="sub-container" class="topic">
+			<a class="html" href="html.html">
 				<h3 class="topic-name" >HTML</h3>
 				<p class="topic-content">Refresh some HTML setup</p>
 			</a>
-			<div class="topics">
-			<a class="topic" href="css.html">
+		</div>
+		<div class="sub-container" class="topic">
+			<a class="css" href="css.html">
 				<h3 class="topic-name" >CSS</h3>
 				<p class="topic-content">Refresh some CSS selectors and best practices</p>
+			</a>
+		</div>
+		<div class="sub-container" class="topic">
+			<a class="style" href="resources/style-guide.html">
+				<h3 class="topic-name" >Style Guide</h3>
+				<p class="topic-content">Style Guide Reference</p>
 			</a>
 		</div>
 
@@ -40,9 +53,11 @@
 
 	<footer>
 		<h3>Thanks for visiting!</h3>
-		<p>last updated: 24 Aug, 2022</p>
+		<p>last updated: 30 Aug, 2022</p>
 
-		<script class="last-updated">last-updated();</script>
+		<script class="last-updated">
+			window.onload = last-updated();
+		</script>
 	</footer>
 </body>
 
