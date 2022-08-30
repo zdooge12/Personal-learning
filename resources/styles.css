@@ -11,9 +11,9 @@
 }
 
 body{
-  color: #2a3132;
-  font-family: 'arvo', 'times new roman', sans-serif;
-  background: #ffff;
+  /* color: #2a3132; */
+  /* font-family: 'arvo', 'times new roman', sans-serif; */
+  /* background: #ffff; */
   margin: 0px 0px;
   font-weight: 500;
   width: 100%;
@@ -23,8 +23,8 @@ body{
 
 header{
 	/* position: sticky; */
-	color: #2a3132;
-	background-color: #90AFC5;
+	/* color: #2a3132;
+	background-color: #90AFC5; */
 	z-index: 10;
 	padding: 10px;
 	margin:	0px;
@@ -88,6 +88,8 @@ header a:active{
 
 .breadcrumb li{
 	display: inline;
+	padding: .01em;
+	margin: .01em;
 }
 .breadcrumb a{
 	text-decoration: none;
