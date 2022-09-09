@@ -1,0 +1,192 @@
+/* General Style */
+html {
+	background-color: black;
+	color: seashell;
+	font-family: "Helvetica", sans-serif;
+	font-size: 22px;
+	opacity: 0.9;
+}
+
+/* Body format */
+body {
+margin: 0px;
+text-align: center;
+}
+
+/* General Image Styling */
+img {
+	max-width: 1200px;
+}
+
+/* Style the Header */
+header {
+	/* Border Testing */
+	/* border-color: red;
+	border-style: solid;
+	border-width: 1px; */
+	position: fixed;
+	background-color: black;
+	border-bottom-style: solid;
+	border-bottom-color: seashell;
+	border-bottom-width: 1px;
+	padding: 10px 9px;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	max-height: 50px;
+	top: 0;
+	overflow: auto;
+	align-items: center;
+	z-index: 10;
+}
+
+.logo {
+	/* nav bar flex alignment structure */
+	flex: 1 1 200px;
+	text-align: left;
+}
+
+/* Styling for the right nav bar margin */
+.nav {
+	margin: 0 100px;
+}
+
+/* change nave link colors */
+.nav a{
+	color: seashell;
+}
+
+/* logo sizing */
+.logo img{
+	height: 50px;
+}
+
+section {
+	/* margin-top: 70px; */
+	margin-left: 20px;
+	width: 100%;
+
+}
+/* structure mission section */
+#mission {
+	height: 700px;
+	/* background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1xk3cp7*_ga*MTc4MzA2MzIwNy4xNjU5MzU0MzM3*_ga_3LRZM6TM9L*MTY2MjA1MjQ3Ny4zOC4xLjE2NjIwNTYzNjYuNTcuMC4w); */
+}
+
+#mission img {
+	/* width: 1200px; */
+}
+
+/* formats the mission statement in center */
+#mission-statement{
+	/* align-content: center; */
+	padding: 10px;
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	  /* left: 50%; */
+	  /* transform: translate(-50%, -50%); */
+	/* position: relative; */
+}
+
+/* formatting for mission statement */
+#mission-statement,#featured-tea h2, h4{
+	padding: 0px;
+	/* margin: 0; */
+}
+
+/* section title text alignments */
+.banner-title {
+	text-align: center;
+	background-color: black;
+	width: 100%;
+	padding: 10px;
+}
+
+/* format the featured tea section */
+#featured-tea {
+	position: relative;
+}
+
+.tea-menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.item {
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+/* formats tea images */
+.item img {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+}
+
+/* formats tea text */
+.item h4 {
+	padding: 0;
+}
+
+
+#Locations{
+	position: relative;
+	margin-top: 0px;
+}
+/* location image sizing */
+.Locations img {
+	height: 500;
+	width: 100%;
+}
+
+.location {
+
+	background-color: black;
+	justify-content: center;
+	width: 300px;
+	margin: 15px 40px;
+	text-align: center;
+
+}
+
+#locations-banner {
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px;
+}
+
+#location-container1 {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+}
+
+.locations-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	opacity: 1;
+}
+
+#contact {
+	justify-content: center;
+}
+
+footer {
+	text-align: left;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
