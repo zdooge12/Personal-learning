@@ -95,9 +95,7 @@ header a:active{
 	text-decoration: none;
 }
 
-.breadcrumb li+li::before{
-	content:">";
-}
+
 .breadcrumb a:hover{
 
 	color: #763626;
